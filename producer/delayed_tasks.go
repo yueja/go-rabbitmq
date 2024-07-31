@@ -3,7 +3,7 @@ package producer
 import (
 	"errors"
 	amqp "github.com/rabbitmq/amqp091-go"
-	rabbit "github.com/yueja/rabbitmq/mq"
+	rabbit "yueja/go-rabbitmq/mq"
 )
 
 type DelayedTask struct {

@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"errors"
 	amqp "github.com/rabbitmq/amqp091-go"
-	"github.com/yueja/rabbitmq/exchange"
-	rabbit "github.com/yueja/rabbitmq/mq"
-	mqQueue "github.com/yueja/rabbitmq/queue"
 	"log"
 	"strconv"
+	"yueja/go-rabbitmq/exchange"
+	rabbit "yueja/go-rabbitmq/mq"
+	mqQueue "yueja/go-rabbitmq/queue"
 )
 
 type AbstractProducer interface {

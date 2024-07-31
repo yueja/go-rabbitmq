@@ -2,10 +2,10 @@ package producer
 
 import (
 	"fmt"
-	"github.com/yueja/rabbitmq/config"
-	"github.com/yueja/rabbitmq/mq"
 	"testing"
 	"time"
+	"yueja/go-rabbitmq/config"
+	"yueja/go-rabbitmq/mq"
 )
 
 // 发布完成自动释放连接（默认）

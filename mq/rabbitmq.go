@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 	amqp "github.com/rabbitmq/amqp091-go"
-	"github.com/yueja/rabbitmq/config"
 	"log"
 	"sync"
+	"yueja/go-rabbitmq/config"
 )
 
 var mq *Pool

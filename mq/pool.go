@@ -3,11 +3,11 @@ package rabbitmq
 import (
 	"errors"
 	amqp "github.com/rabbitmq/amqp091-go"
-	"github.com/yueja/rabbitmq/config"
-	"github.com/yueja/rabbitmq/constant"
 	"log"
 	"sync"
 	"time"
+	"yueja/go-rabbitmq/config"
+	"yueja/go-rabbitmq/constant"
 )
 
 type pool interface {

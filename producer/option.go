@@ -1,8 +1,8 @@
 package producer
 
 import (
-	"github.com/yueja/rabbitmq/exchange"
-	mqQueue "github.com/yueja/rabbitmq/queue"
+	"yueja/go-rabbitmq/exchange"
+	mqQueue "yueja/go-rabbitmq/queue"
 )
 
 type Option struct {

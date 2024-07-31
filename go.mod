@@ -1,4 +1,4 @@
-module github.com/yueja/rabbitmq
+module yueja/go-rabbitmq
 
 go 1.19
 

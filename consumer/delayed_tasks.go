@@ -2,7 +2,7 @@ package consumer
 
 import (
 	amqp "github.com/rabbitmq/amqp091-go"
-	rabbit "github.com/yueja/rabbitmq/mq"
+	rabbit "yueja/go-rabbitmq/mq"
 )
 
 type DelayedTaskBody struct {

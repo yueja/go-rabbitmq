@@ -2,10 +2,10 @@ package consumer
 
 import (
 	"fmt"
-	"github.com/yueja/rabbitmq/config"
-	"github.com/yueja/rabbitmq/mq"
 	"testing"
 	"time"
+	"yueja/go-rabbitmq/config"
+	"yueja/go-rabbitmq/mq"
 )
 
 // Test_QueueConsumer 队列模式
